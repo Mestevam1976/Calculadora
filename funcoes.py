@@ -78,3 +78,9 @@ def bhaskara():
             print('A primeira raiz (x1) é: ', x1)
             print('A segunda raiz (x2) é: ', x2)
             print('=' * 75)
+
+def resto():
+        a = int(input('Digite valor a: '))
+        b = int(input('Digite valor b: '))
+
+        print(f"Resultado de {a} módulo {b} = {a%b}")

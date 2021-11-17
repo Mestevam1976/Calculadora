@@ -32,10 +32,7 @@ while atende == False:
         atende = True
 
     elif seleciona_calculadora == 'd':
-        a = int(input('Digite valor a: '))
-        b = int(input('Digite valor b: '))
-
-        print(f"Resultado de {a} módulo {b} = {a%b}")
+        funcoes.resto()
         atende = True
 
     else:
